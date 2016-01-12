@@ -1,5 +1,5 @@
 ---
-layout: defalut
+layout: default
 ---
 
 # hello World
