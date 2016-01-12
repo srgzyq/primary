@@ -6,4 +6,4 @@
 日常阅读和练习:
 + **learn python the hard way**
 
-单词:variable lousy capacity assignment
+单词:variable lousy capacity assignment embed
