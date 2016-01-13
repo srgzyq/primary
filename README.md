@@ -7,3 +7,4 @@
 + **learn python the hard way**
 
 单词:variable lousy capacity assignment embed
+multiple parenthesis commas abbreviate annoying binary hilarious raw evaluation
