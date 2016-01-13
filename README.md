@@ -8,3 +8,4 @@
 
 单词:variable lousy capacity assignment embed
 multiple parenthesis commas abbreviate annoying binary hilarious raw evaluation
+lamb fleece magicians fool nasty
