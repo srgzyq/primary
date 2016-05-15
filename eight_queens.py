@@ -72,9 +72,10 @@ def queens(num=4, state=(), result=[]):
                 queens(num, state + (pos,), result)
 
 
-rs = []
-queens(8, (), rs)
-# print rs
-print "8 皇后拥有的种类:", len(rs)
-print "8 皇后拥有的3种:"
+if __name__ == '__main__':
+    rs = []
+    queens(8, (), rs)
+    # print rs
+    print "8 皇后拥有的种类:", len(rs)
+    print "8 皇后拥有的3种:"
 printMap(rs[3], 8, 8)
