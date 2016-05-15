@@ -1,9 +1,5 @@
 # --coding:utf-8-- #
 
-# 下标表示y纵轴 值表示x横轴
-# 数组长度为，需要查找的层数
-state = []
-
 
 def conflict(state, nextX):
     nextY = len(state)
@@ -73,9 +69,13 @@ def queens(num=4, state=(), result=[]):
 
 
 if __name__ == '__main__':
+    # 下标表示y纵轴 值表示x横轴
+    # 数组长度为，需要查找的层数
+    state = []
+
     rs = []
     queens(8, (), rs)
     # print rs
     print "8 皇后拥有的种类:", len(rs)
     print "8 皇后拥有的3种:"
-printMap(rs[3], 8, 8)
+    printMap(rs[3], 8, 8)
