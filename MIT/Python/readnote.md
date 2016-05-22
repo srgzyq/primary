@@ -1,3 +1,7 @@
+# 读书笔记
+开始于:2016年5月
+地址:[计算机科学及编程导论](http://open.163.com/special/opencourse/bianchengdaolun.html)
+
 1. 其他
 	+ 分解
 		+ 函数	
