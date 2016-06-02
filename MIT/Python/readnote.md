@@ -133,3 +133,8 @@
 2. Data abstruct 抽象数据
 3. 对象Object = 数据和函数的集合(Collection of data and functions)
 4. 传递消息
+
+#### 一. 列子 二维几何程序
++ 笛卡尔坐标和极坐标
++ dir(object) 显示所有的方法
+
