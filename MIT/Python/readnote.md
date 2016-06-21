@@ -1,6 +1,9 @@
 # 读书笔记
 开始于:2016年5月
-地址:[计算机科学及编程导论](http://open.163.com/special/opencourse/bianchengdaolun.html)
+地址:
+
++ [计算机科学及编程导论](http://open.163.com/special/opencourse/bianchengdaolun.html)
++ [课程源代码](http://wenku.baidu.com/link?url=pQMswumM5w4Cbrug9fpSdB7lG51F3vNWREMu1AFBkKMppVgholwG7pOI60_a-EqDaKX6hUWr27aFsf_1PCvagUO9eCCSxHlv-aUBxoAUcwC)
 
 1. 其他
 	+ 分解
@@ -148,5 +151,10 @@
 #### 随机走动
 一个醉酒学生，在操场上随机进行走动。程序模拟无规则的运动。
 程序结构:
+
 + Location
 + CompressP
+
+### 五. 表示模拟结构和pylab与绘图
+Pylab 库
+Numpy 库

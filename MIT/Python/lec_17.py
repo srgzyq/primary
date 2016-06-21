@@ -92,13 +92,45 @@ def performTrial(time, f):
         distances.append(distance)
     return distances
 
-drunk = Drunk('Homer Simpson')
-for i in range(3):
-    f = Field(drunk, Location(0, 0))
-    distances = performTrial(500, f)
-    pylab.plot(distances)
 
-pylab.title('Homer\'s Random Walk')
-pylab.xlabel('Time')
-pylab.ylabel('Distance from Origin')
+def firstTest():
+    drunk = Drunk('Homer Simpson')
+    for i in range(5):
+        f = Field(drunk, Location(0, 0))
+        distances = performTrial(500, f)
+        pylab.plot(distances)
+
+    pylab.title('Homer\'s Random Walk')
+    pylab.xlabel('Time')
+    pylab.ylabel('Distance from Origin')
+
+
+def performSim(time, numTrials):
+    distLists = []
+    for trial in range(numTrials):
+        d = Drunk('Drunk' + str(trial))
+        f = Field(d, Location(0, 0))
+        distances = performTrial(time, f)
+        distLists.append(distances)
+    return distLists
+
+
+def ansQuest(maxTime, numTrials):
+    means = []
+    distLists = performSim(maxTime, numTrials)
+    for t in range(maxTime + 1):
+        tot = 0.0
+        for distL in distLists:
+            tot += distL[t]
+        means.append(tot / len(distLists))
+        #print 'tot:', tot
+        #print distLists
+    pylab.figure()
+    pylab.plot(means)
+    pylab.ylabel('distance')
+    pylab.xlabel('time')
+    pylab.title('Average Distance vs. Time (' +
+                str(len(distLists)) + ' trials)')
+#firstTest()
+ansQuest(300, 500)
 pylab.show()
